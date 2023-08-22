@@ -49,3 +49,5 @@ let filtroPromoPrecio = productos.filter(function(producto){
     return(producto.precio >= 80000 && producto.promocion === true)
 })
 console.log("\n filtro promocion y precio \n", filtroPromoPrecio ,"\n")
+
+ 
